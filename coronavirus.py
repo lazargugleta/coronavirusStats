@@ -70,7 +70,7 @@ def send_mail(country_element, total_cases, new_cases, total_deaths, new_deaths,
 
     server.sendmail(
         'Coronavirus',
-        'lazar.gugleta@gmail.com',
+        'email',
         msg
     )
     print('Hey Email has been sent!')
