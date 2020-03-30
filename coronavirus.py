@@ -51,7 +51,7 @@ def send_mail(country_element, total_cases, new_cases, total_deaths, new_deaths,
     server.starttls()
     server.ehlo()
 
-    server.login('lazar.gugleta@gmail.com', 'lafydtbsoiufkwye')
+    server.login('email', 'password')
 
     subject = 'Coronavirus stats in your country today!'
 
